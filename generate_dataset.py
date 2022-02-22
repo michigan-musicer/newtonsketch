@@ -4,7 +4,11 @@ import torchvision.transforms as transforms
 
 import numpy as np
 
-
+# synthetic_orthogonal
+# synthetic_high_coherence
+# cifar-10
+# musk
+# wesad
 def load_data(dataset, n=2**14, d=2**8, df=2):
     if dataset == 'synthetic_orthogonal':
         return generate_orthogonal(n=n, d=d)
